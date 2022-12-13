@@ -23,7 +23,7 @@ public class DailyWage extends Presenty {
                 System.out.println("part time");
         }
         int dailyWage = perHour * dailyHour;
-        System.out.println("daily wage is : " + dailyWage);
-
+        int monthly = dailyWage *20;
+        System.out.println("daily wage is : " + monthly);
     }
 }
